@@ -19,10 +19,31 @@
 
 ---
 
+## Credits
+
+This project is based on [AutoReadStoryWhatsapp](https://github.com/jauhariel/AutoReadStoryWhatsapp) by [jauhariel](https://github.com/jauhariel), with modifications and improvements by [Wisky-NM](https://github.com/Wisky-NM).
+
+---
+
+## Preview
+
+> The bot automatically reads and likes stories in the background — the story owner sees it just like a normal view or like from a real user.
+
+**Auto Like with the native green heart (just like a real like)**
+
+![Auto Like](imgs/357168.jpg)
+
+**Custom emoji reaction support — you can set any emoji like the star shown below**
+
+![Custom Emoji](imgs/357165.jpg)
+
+---
+
 ## Features
 
 - Auto read stories
-- Auto like stories with random emoji
+- Auto like stories using the native green heart like a real user
+- Custom emoji reactions (set any emoji you want)
 - Download media from stories (photo, video, audio)
 - Number hiding (sensor)
 - Anti-call
@@ -62,7 +83,7 @@ node index.js
     "autoKickStory": false,
     "blackList": [],
     "whiteList": [],
-    "emojis": ["💚", "♥️", "🖤"]
+    "emojis": ["💚", "🖤", "🤍"]
 }
 ```
 
@@ -98,17 +119,17 @@ All commands are sent to **yourself** on WhatsApp.
 
 | Command | Description |
 |---------|-------------|
-| `#add blacklist 628xxx` | Add number to blacklist |
-| `#add whitelist 628xxx` | Add number to whitelist |
-| `#add emojis 🩶` | Add emoji to reaction list |
+| `#add blacklist 201xxx` | Add number to blacklist |
+| `#add whitelist 201xxx` | Add number to whitelist |
+| `#add emojis emoji` | Add emoji to reaction list |
 
 ### REMOVE — Remove from Lists
 
 | Command | Description |
 |---------|-------------|
-| `#remove blacklist 628xxx` | Remove number from blacklist |
-| `#remove whitelist 628xxx` | Remove number from whitelist |
-| `#remove emojis 🩶` | Remove emoji from reaction list |
+| `#remove blacklist 201xxx` | Remove number from blacklist |
+| `#remove whitelist 201xxx` | Remove number from whitelist |
+| `#remove emojis emoji` | Remove emoji from reaction list |
 
 ### INFO & MENU
 
