@@ -100,7 +100,7 @@ All commands are sent to **yourself** on WhatsApp.
 |---------|-------------|
 | `#add blacklist 628xxx` | Add number to blacklist |
 | `#add whitelist 628xxx` | Add number to whitelist |
-| `#add emojis 🔥` | Add emoji to reaction list |
+| `#add emojis 🩶` | Add emoji to reaction list |
 
 ### REMOVE — Remove from Lists
 
@@ -108,7 +108,7 @@ All commands are sent to **yourself** on WhatsApp.
 |---------|-------------|
 | `#remove blacklist 628xxx` | Remove number from blacklist |
 | `#remove whitelist 628xxx` | Remove number from whitelist |
-| `#remove emojis 🔥` | Remove emoji from reaction list |
+| `#remove emojis 🩶` | Remove emoji from reaction list |
 
 ### INFO & MENU
 
