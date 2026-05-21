@@ -2,9 +2,9 @@
     "name": "autoreadstorywhatsapp",
     "version": "1.0.0",
     "description": "Auto Read Story WhatsApp Bot by Wisky",
-    "main": "tst.js",
+    "main": "index.js.js",
     "scripts": {
-        "start": "node tst.js"
+        "start": "node index.js"
     },
     "dependencies": {
         "@whiskeysockets/baileys": "latest",
